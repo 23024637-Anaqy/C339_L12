@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Metadata -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore our Open House event with exciting activities, courses, and opportunities.">
+  <meta name="description" content="Welcome to our Open House event. Explore exciting activities, courses, and opportunities.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Title -->
   <title>Welcome to Open House</title>
+
+  <!-- Styles (Minified Inline CSS for Critical Rendering Path) -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0078d4;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    main {
+      padding: 1em;
+    }
+    a {
+      color: #0078d4;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <!-- Preload Important Resources -->
+  <link rel="preload" href="logo.png" as="image">
+
+  <!-- Use Modern JavaScript -->
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('JavaScript loaded');
+    });
+  </script>
 </head>
 <body>
-  Hello World!
+  <!-- Accessible Header -->
+  <header>
+    <h1>Welcome to Our Open House</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <p>Join us to explore exciting opportunities and learn about our courses. Discover what makes us unique.</p>
+    <img src="logo.png" alt="Open House Logo" width="200" height="200">
+    <a href="#learn-more">Learn More</a>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Open House. All rights reserved.</p>
+  </footer>
+
+  <!-- Deferred Script Loading -->
+  <script defer src="main.js"></script>
 </body>
 </html>
